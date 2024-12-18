@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  form input:focus, form select:focus, form button:focus {
+    outline: none;
+    border-color: #2980b9;
+  }
+  
+  form button {
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #3498db;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: #2ecc71;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .employee-list {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-list li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .employee-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-list button:hover {
+    background-color: #c0392b;
+  }
+  
+  input, select, button {
+    margin-top: 8px;
+  }
+  
+  form input,
+  form select {
+    margin-bottom: 12px;
+  }
+  
+  form button {
+    margin-top: 20px;
+  }
+  
+  ul {
+    margin-top: 20px;
+  }  

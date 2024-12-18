@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.employee-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-list button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.employee-list button:hover {
+  background-color: #c0392b;
+}
